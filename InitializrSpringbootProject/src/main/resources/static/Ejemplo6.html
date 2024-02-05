@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<!-- Primera página del curso -->
+<html>
+    <head>
+        <title>Ferrari</title>
+        <meta charset="UTF-8"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header class="header">
+            <div class="topnav">
+                <a class="active" href="Ejemplo6.html">Suscribirse</a>
+                <a href="index.html">Home</a>
+                <a href="Ejemplo2.html">Campeonatos</a>
+                <a href="Ejemplo3.html">Historia</a>
+                <a href="Ejemplo4.html">Audios</a>
+                <a href="Ejemplo5.html">Iframes</a>
+                <a href="Ejemplo7.html">Noticias</a>
+                <a href="Ejemplo8.html">Contacto</a>
+            </div>
+            <figure>
+                <img src="https://c4.wallpaperflare.com/wallpaper/904/898/560/ferrari-logo-wallpaper-preview.jpg" height="80" alt="Servidor"/>
+            </figure>
+        </header>
+        <aside class="aside">
+            <h2 id="noticia">Suscribirse</h2>
+            <p>Al crear un usuario con suscripcion tendra acceso a contenido privado por parte del Equipo y De los pilotos de la Scuderia y podras optar por entradas VIP a futuros Grand Prix</p>
+        </aside>
+
+        <section class="section">
+            <article>
+                <header>
+                    <h2>Solicitud de Información</h2>
+                </header>
+
+                <form action="#">
+                    <table border="0" cellspacing="5" cellpadding="5">                        
+                        <tbody>
+                            <tr>
+                                <td>Usuario</td>
+                                <td><input type="email" 
+                                           name="usuario" placeholder="correo@correo.com"
+                                           size="25"/></td>
+                            </tr>
+                            <tr>
+                                <td>Clave</td>
+                                <td><input type="password" name="clave"
+                                           size="10"/></td>
+                            </tr>
+                            <tr>
+                                <td>Nombre completo</td>
+                                <td><input type="text" name="nombre" placeholder="Nombre completo"
+                                           size="40"/></td>
+                            </tr>
+                            <tr>
+                                <td>Color preferido</td>
+                                <td><input type="color" name="color"/></td>
+                            </tr>
+                            <tr>
+                                <td>Su foto</td>
+                                <td><input type="file" name="foto"
+                                           accept="image/*"/></td>
+                            </tr>
+                            <tr>
+                                <td>Teléfono</td>
+                                <td><input type="tel" name="telefono"
+                                           size="8"/></td>
+                            </tr>
+                                                        
+                            <tr>
+                                <td>Continente</td>
+                                <td>America <input type="radio" name="Continente" value="1"/>
+                                    Europa <input type="radio" name="Continente" value="2"/>
+                                    Asia <input type="radio" name="Continente" value="3"/>
+                                    Africa <input type="radio" name="Continente" value="4"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Nivel de satisfacción</td>
+                                <td>Mínimo 0 <input type="range" min="0" max="10" step="1"/> 10 máximo</td>
+                            </tr>
+                            <tr>
+                                <td>Dirección exacta</td>
+                                <td><textarea name="dirección" rows="4" cols="40"></textarea></td>
+                            </tr>
+                                <td>Acciones</td>
+                                <td><input type="reset" value="Limpiar"/>
+                                    <input type="submit" value="Enviar"/>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    Declaro bajo juramento que la información es veraz <input type="checkbox" name="jura" required />
+                </form>
+            </article>
+        </section>
+        <footer class="footer">
+            <p>Derechos Reservados Ferrari &COPY; 2024</p>
+        </footer>
+
+    </body>
+</html>
